@@ -33,7 +33,7 @@ class MainApp(QMainWindow):
         self.random_distribution_tab = RandomDistributionTab()
         self.bundle_distribution_tab = BundleDistributionTab()
         
-        tab_widget.addTab(self.random_name_tab, "随机点名")
+        tab_widget.addTab(self.random_name_tab, "随机上捆")
         tab_widget.addTab(self.random_distribution_tab, "随机分配")
         tab_widget.addTab(self.bundle_distribution_tab, "一键上捆")
         
