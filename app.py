@@ -15,7 +15,7 @@ from bundle_distribution import BundleDistributionTab
 class MainApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("多功能随机工具")
+        self.setWindowTitle("随机满赠上捆工具")
         self.setGeometry(100, 100, 800, 600)
         
         # 创建主窗口部件
